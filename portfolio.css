@@ -51,7 +51,11 @@ a:hover{
     float:left;
     margin-top: 30px;
   }
-  
+  #welcomeimg{
+    width:100%;
+    height:auto;
+
+}
   .aboutme{
       font-size: 1.5em;
      letter-spacing:1.5px;
@@ -59,11 +63,7 @@ a:hover{
       padding:20px;
 
       }
-      #welcomeimg{
-          width:50%;
-          height:auto;
-
-      }
+     
       p{
         font-family: 'Dancing Script', cursive;
         font-size: 1.5em;
@@ -86,6 +86,7 @@ a:hover{
     #projects{
         display:flex;
         float:left;
+        height:100vh;
     }
 
 
@@ -146,6 +147,7 @@ a:hover{
 /*@media  screen and (max-width:800px){
 
 
+
     #welcome-section{
         margin-top: 10px;
         }
@@ -181,3 +183,4 @@ a:hover{
             
           }
 }*/
+
