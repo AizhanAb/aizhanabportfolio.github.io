@@ -1,5 +1,7 @@
 
 
+
+
 body{
     font-family: 'Lobster', cursive;
     padding:0;
@@ -86,7 +88,7 @@ a:hover{
     #projects{
         display:flex;
         float:left;
-        height:100vh;
+       
     }
 
 
@@ -144,43 +146,90 @@ a:hover{
     .quote{
         font-family: Raleway, sans-serif;
     }
-/*@media  screen and (max-width:800px){
 
 
 
-    #welcome-section{
-        margin-top: 10px;
-        }
-    .aboutme{
-        font-size: 1em;
-       letter-spacing:1px;
-        width:180px;
-        padding:10px;
-  
-        }
-        #welcomeimg{
-            width:300px;
+ @media  (min-width:800px)  and (max-width:1050px){
+        #welcome-section{
+            width:100%;
             height:auto;
-  
-        }
-        
+            display:flex;
+            float:none;
+            margin-top: 10px;
+          }
 
-          nav{
- 
-            position:sticky;
+    }
+@media (min-width:600px) and (max-width:800px){
+    #imglogo{
+        width:auto;
+        height:70px;
+    }
+    navbar{
+       padding:5px;
+    }
+    nav>a{
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        float:right;
+        padding:5px;
+        font-size:1.3em;
+        text-decoration:none;
+        color:rgb(136, 179, 247);
+        
+      }
+      #welcome-section{
+        width:100%;
+        height:auto;
+        display:flex;
+        float:none;
+        margin-top: 10px;
+      }
+body{
+    padding:0;
+    margin:0;
+}
+#projects>div{
+    width:100%;
+    padding:10px;
+}
+}
+@media  (max-width:600px){
+   
+    #imglogo{
+        width:auto;
+        height:20px;
+    }
+ #welcome-section , #projects, #my-goals{
+        margin-top: 10px;
+        flex-direction: column;
+        width:100vw;
+        height:auto;
+        }
+        .aboutme, .My-goalstext{
+            font-size: 1em;
+           letter-spacing:1px;
+            width:100%;
+            padding:10px;
+      
+            }
+            
+    #projects>div{
+        width:100%;
+        padding:10px;
+    }
+           
+     nav{
+           position:sticky;
             top:0;
             left:0;
             width:100%;
-            height:20px;
+            height:60px;
+            display:flex;
             
           }
           nav>a{
-            
-           
-            padding:10px;
-            font-size:1em;
-            
-            
+             padding:5px;
+            font-size:1em;  
           }
-}*/
-
+}
