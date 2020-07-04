@@ -1,0 +1,183 @@
+
+
+body{
+    font-family: 'Lobster', cursive;
+    padding:0;
+  margin:0;
+}
+
+
+
+nav{
+ 
+  position:sticky;
+  top:0;
+  left:0;
+  width:100%;
+  height:70px;
+  background-color:rgb(255, 255, 255);
+   margin:0;
+  padding:0;
+}
+nav>a{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  float:right;
+  padding:30px;
+  font-size:1.3em;
+  text-decoration:none;
+  color:rgb(136, 179, 247);
+  
+}
+
+nav>a:hover{
+    opacity:0.6;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.6;
+}
+#imglogo{
+    width:auto;
+    height:70px;
+}
+#welcome-section{
+    width:100%;
+    height:100vh;
+    display:flex;
+    float:left;
+    margin-top: 30px;
+  }
+  
+  .aboutme{
+      font-size: 1.5em;
+     letter-spacing:1.5px;
+      width:50%;
+      padding:20px;
+
+      }
+      #welcomeimg{
+          width:50%;
+          height:auto;
+
+      }
+      p{
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.5em;
+      }
+      #hello{
+          color:rgb(201, 50, 50);
+      }
+
+      #merhaba{
+        color:rgb(8, 103, 135) ;
+    }
+    #zdr{
+        color:rgb(207, 149, 33);
+    }
+    #salam{
+        color:rgb(127, 176, 84);
+    }
+
+
+    #projects{
+        display:flex;
+        float:left;
+    }
+
+
+    #projects>div{
+        width:33%;
+        padding:10px;
+    }
+
+
+    #My-goals{
+        width:100%;
+        
+        display:flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .My-goalstext{
+        width:40%;
+        height:auto; 
+        padding:20px;
+    }
+
+    .My-goalsimg{
+       width:40%;
+       padding:20px;
+     
+ }
+
+
+    #meimg{
+        width:400px;
+        height:auto;
+        border-radius:50%;
+        
+    }
+    .project-tile{
+        color:rgb(217, 24, 191);
+    }
+
+    footer{
+        margin-top: 50px;
+        width:100%;
+        height:30vh;
+        color:rgb(217, 211, 24);
+        font-size: x-large;
+        display:flex;
+        align-items: center;
+        justify-content: flex-end;
+        
+    }
+    footer>p{
+        padding:20px;
+    }
+    .quote{
+        font-family: Raleway, sans-serif;
+    }
+@media  screen and (max-width:800px){
+
+
+    #welcome-section{
+        margin-top: 10px;
+        }
+    .aboutme{
+        font-size: 1em;
+       letter-spacing:1px;
+        width:180px;
+        padding:10px;
+  
+        }
+        #welcomeimg{
+            width:300px;
+            height:auto;
+  
+        }
+        
+
+          nav{
+ 
+            position:sticky;
+            top:0;
+            left:0;
+            width:100%;
+            height:20px;
+            
+          }
+          nav>a{
+            
+           
+            padding:10px;
+            font-size:1em;
+            
+            
+          }
+}
